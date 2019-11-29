@@ -12,7 +12,7 @@ search.addEventListener('keyup', evt => {
     }
 })
 
-const runScript = () => {
+    const runScript = () => {
     let text = area.innerText;
     if (true) {
         const promise = dataFlight.getData(text);
